@@ -12,7 +12,7 @@ const AdFormats = () => {
       </div>
       <div className="container mt-5">
         <NavLink
-          to="/pop-under"
+          to="/"
           className={({ isActive }) =>
             isActive
               ? `ad-format-btn-active button--pill mx-3`

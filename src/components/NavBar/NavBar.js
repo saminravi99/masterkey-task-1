@@ -7,12 +7,12 @@ const NavBar = () => {
   return (
     <div>
       <div className="d-flex justify-content-between align-items-center container">
-        <Navbar.Brand href="#home" className="m-4">
+        <NavLink to="/" className="m-4">
           <img
             src="https://s3-ap-southeast-1.amazonaws.com/com.analyzen.website/website/assets/images/logo.svg"
             alt="logo"
           />
-        </Navbar.Brand>
+        </NavLink>
         <div className="m-4">
           <NavLink
             className={({ isActive }) =>

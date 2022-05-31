@@ -17,7 +17,7 @@ function App() {
           element={<Home></Home>}
         >
           <Route
-            path="pop-under"
+            index
             element={<PopUnder></PopUnder>}
           ></Route>
           <Route
