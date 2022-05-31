@@ -1,0 +1,36 @@
+.summary-section {
+  background-color: #644f9c;
+  height: 500px;
+}
+
+.stat {
+  padding: 50px;
+  width: 320px;
+  height: 320px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.stat > div > h1, h3{
+      font-weight: 700;
+}
+
+.stat-one {
+  background-color: transparent;
+  border: 2px dashed black;
+  color: rgb(255, 255, 255);
+}
+.stat-two {
+  background-color: white;
+  color:#644F9C
+}
+.stat-three {
+  background-color: #ff6f00;
+  color: aliceblue;
+  box-shadow: 0px 0px 10px #52504f;
+}
+
+.business-summary{
+    color: #ffffff;
+    font-weight: 700;
+}
