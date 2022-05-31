@@ -1,0 +1,53 @@
+.ad-format-btn{
+     cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 1.2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.1rem;
+  padding-right: 1.1rem;
+  transition: all 260ms ease;
+  text-decoration: none;
+  font-family: inherit;
+  width: 240px;
+  color: #000000;
+  background: white;
+  box-shadow: 0.3rem 0.3rem 0.5rem rgb(195 193 198 / 90%),
+    -0.2rem -0.2rem 0.4rem #fff;
+}
+
+.ad-format-btn > button{
+    background-color: transparent;
+    border: none;
+}
+
+
+.ad-format-btn-active{
+     cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 1.2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.1rem;
+  padding-right: 1.1rem;
+  transition: all 260ms ease;
+  text-decoration: none;
+  font-family: inherit;
+  width: 240px;
+  color: #ffffff;
+  background: #FF6F00;
+  box-shadow: 0.3rem 0.3rem 0.5rem rgb(195 193 198 / 90%),
+    -0.2rem -0.2rem 0.4rem #fff;
+}
+
+.ad-format-btn-active > button{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+}
