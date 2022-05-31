@@ -1,0 +1,23 @@
+.hero-info{
+    font-family: 'PT Sans', sans-serif;
+}
+
+.hero-info > h1{
+    color: #644f9c;
+    font-weight: 700;
+}
+
+.hero-info > p{
+    line-height: 2;
+}
+
+.hero-img{
+    width: 500px
+}
+
+@media screen and (max-width: 768px){
+    .hero-img{
+        width: 300px
+    }
+}
+    

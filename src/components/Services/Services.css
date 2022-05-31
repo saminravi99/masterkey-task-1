@@ -1,0 +1,51 @@
+.break-line{
+    width: 100%;
+    border: 1px dashed #000000;
+    margin: 20px 0;
+    width:300px;
+}
+.service-headline{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #644f9c;
+}
+
+.service-icons{
+    font-size: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: rgb(98, 98, 202);
+    background-color: white;
+    padding: 50px;
+    border-radius: 50%;
+    box-shadow: 0.3rem 0.3rem 0.5rem rgb(195 193 198 / 90%),
+    -0.2rem -0.2rem 0.4rem #fff;
+}
+
+.service-text{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #644f9c;
+}
+.service-btn{
+   cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 1.2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.1rem;
+  padding-right: 1.1rem;
+  transition: all 260ms ease;
+  text-decoration: none;
+  font-family: inherit;
+  width: 240px;
+  color: #ffffff;
+  background: #644f9c;
+  box-shadow: 0.3rem 0.3rem 0.5rem rgb(195 193 198 / 90%),
+    -0.2rem -0.2rem 0.4rem #fff;
+}

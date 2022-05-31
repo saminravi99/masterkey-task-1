@@ -42,8 +42,8 @@ const NavBar = () => {
                 to="/"
                 className={({ isActive }) =>
                   isActive
-                    ? `nav-fonts active-link mx-3`
-                    : `inactive-link mx-3 nav-fonts`
+                    ? `nav-fonts active-link mx-3 mt-lg-0 mt-3`
+                    : `inactive-link mx-3 nav-fonts mt-lg-0 mt-3`
                 }
               >
                 Home
@@ -52,8 +52,8 @@ const NavBar = () => {
                 to="/advertiders"
                 className={({ isActive }) =>
                   isActive
-                    ? `nav-fonts active-link mx-3`
-                    : `inactive-link nav-fonts mx-3`
+                    ? `nav-fonts active-link mx-3 mt-lg-0 mt-3`
+                    : `inactive-link nav-fonts mx-3 mt-lg-0 mt-3 `
                 }
               >
                 Advertisers
@@ -62,8 +62,8 @@ const NavBar = () => {
                 to="/publishers"
                 className={({ isActive }) =>
                   isActive
-                    ? `nav-fonts active-link mx-3`
-                    : `inactive-link nav-fonts mx-3`
+                    ? `nav-fonts active-link mx-3 mt-lg-0 mt-3`
+                    : `inactive-link nav-fonts mx-3 mt-lg-0 mt-3`
                 }
               >
                 Publishers
@@ -72,8 +72,8 @@ const NavBar = () => {
                 to="/influencers"
                 className={({ isActive }) =>
                   isActive
-                    ? `nav-fonts active-link mx-3`
-                    : `inactive-link nav-fonts mx-3`
+                    ? `nav-fonts active-link mx-3 mt-lg-0 mt-3`
+                    : `inactive-link nav-fonts mx-3 mt-lg-0 mt-3`
                 }
               >
                 Influencers
@@ -82,8 +82,8 @@ const NavBar = () => {
                 to="/ad-formats"
                 className={({ isActive }) =>
                   isActive
-                    ? `nav-fonts active-link mx-3`
-                    : `inactive-link nav-fonts mx-3`
+                    ? `nav-fonts active-link mx-3 mt-lg-0 mt-3`
+                    : `inactive-link nav-fonts mx-3 mt-lg-0 mt-3`
                 }
               >
                 Ad Formats
@@ -92,8 +92,8 @@ const NavBar = () => {
                 to="/blogs"
                 className={({ isActive }) =>
                   isActive
-                    ? `nav-fonts active-link mx-3`
-                    : `inactive-link nav-fonts mx-3`
+                    ? `nav-fonts active-link mx-3 mt-lg-0 mt-3`
+                    : `inactive-link nav-fonts mx-3 mt-lg-0 mt-3`
                 }
               >
                 Blog
@@ -102,15 +102,15 @@ const NavBar = () => {
                 to="/contact-us"
                 className={({ isActive }) =>
                   isActive
-                    ? `nav-fonts active-link mx-3`
-                    : `inactive-link nav-fonts mx-3`
+                    ? `nav-fonts active-link mx-3 mt-lg-0 mt-3`
+                    : `inactive-link nav-fonts mx-3 mt-lg-0 mt-3`
                 }
               >
                 Contact Us
               </NavLink>
             </Nav>
             <Nav>
-              <div className="button button--pill d-flex justify-content-around align-items-center">
+              <div className="button button--pill d-flex justify-content-around align-items-center mt-lg-0 mt-3">
                 <NavLink eventKey={2} to="/login" className="nav-fonts">
                   <button class="login-btn">Login</button>
                 </NavLink>
