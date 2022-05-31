@@ -1,0 +1,74 @@
+.nav-fonts {
+  font-family: "PT Sans", sans-serif;
+  font-size: 22px;
+}
+
+.inactive-link {
+  color: #644f9c;
+  text-decoration: none;
+}
+
+.inactive-link:hover {
+  color: #ff6f00;
+}
+
+.active-link {
+  color: #ff6f00;
+  text-decoration: none;
+}
+
+.lang-btn {
+  text-decoration: none;
+  color: black;
+}
+
+.lang-btn:hover {
+  color: rgb(120, 194, 10);
+}
+
+.active-lang-btn {
+  color: rgb(120, 194, 10);
+}
+
+.button {
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 1.2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.1rem;
+  padding-right: 1.1rem;
+  transition: all 260ms ease;
+  text-decoration: none;
+  font-family: inherit;
+  width: 240px;
+  color: #9baacf;
+  background: #e0e5ec;
+  box-shadow: 0.3rem 0.3rem 0.5rem rgb(195 193 198 / 90%),
+    -0.2rem -0.2rem 0.4rem #fff;
+}
+
+.button--pill {
+  border-radius: 2.4rem;
+}
+
+.login-btn {
+  background: #e0e5ec;
+
+  border: none;
+}
+
+.sign-up-btn {
+  background: #ff6f00;
+  padding: 0.3rem 1rem;
+  border-radius: 1.4rem;
+  font-size: 18px;
+  color: #fff;
+  box-shadow: 0.3rem 0.3rem 0.5rem rgb(195 193 198 / 90%),
+    -0.2rem -0.2rem 0.4rem #fff;
+
+  border: none;
+}
