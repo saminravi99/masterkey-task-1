@@ -12,10 +12,11 @@ import "./Slider.css";
 
 // import required modules
 import { Autoplay, Navigation } from "swiper";
-import { Button, Card } from "react-bootstrap";
+import {  Card } from "react-bootstrap";
 
 export default function Slider() {
   const [swiperRef, setSwiperRef] = useState(null);
+  console.log(swiperRef);
 
 
   return (
