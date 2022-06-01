@@ -11,46 +11,48 @@ const AdFormats = () => {
         <div className="break-line"></div>
       </div>
       <div className="container mt-5">
-        <NavLink
-          to="/"
-          className={({ isActive }) =>
-            isActive
-              ? `ad-format-btn-active button--pill mx-3`
-              : `ad-format-btn button--pill mx-3`
-          }
-        >
-          <button>POP-UNDER</button>
-        </NavLink>
-        <NavLink
-          to="/banner-ad"
-          className={({ isActive }) =>
-            isActive
-              ? `ad-format-btn-active button--pill mx-3`
-              : `ad-format-btn button--pill mx-3`
-          }
-        >
-          <button>BANNER AD</button>
-        </NavLink>
-        <NavLink
-          to="/native"
-          className={({ isActive }) =>
-            isActive
-              ? `ad-format-btn-active button--pill mx-3`
-              : `ad-format-btn button--pill mx-3`
-          }
-        >
-          <button>NATIVE</button>
-        </NavLink>
-        <NavLink
-          to="/skim"
-          className={({ isActive }) =>
-            isActive
-              ? `ad-format-btn-active button--pill mx-3`
-              : `ad-format-btn button--pill mx-3`
-          }
-        >
-          <button>SKIM</button>
-        </NavLink>
+        <div className="d-flex text-center flex-lg-row flex-column">
+          <NavLink
+            to="/"
+            className={({ isActive }) =>
+              isActive
+                ? `ad-format-btn-active button--pill mx-lg-3 mx-auto  d-block mt-lg-0 mt-5`
+                : `ad-format-btn button--pill mx-lg-3 mx-auto  d-block mt-lg-0 mt-5`
+            }
+          >
+            <button>POP-UNDER</button>
+          </NavLink>
+          <NavLink
+            to="/banner-ad"
+            className={({ isActive }) =>
+              isActive
+                ? `ad-format-btn-active button--pill mx-lg-3 mx-auto  d-block mt-lg-0 mt-5`
+                : `ad-format-btn button--pill mx-lg-3 mx-auto  d-block mt-lg-0 mt-5`
+            }
+          >
+            <button>BANNER AD</button>
+          </NavLink>
+          <NavLink
+            to="/native"
+            className={({ isActive }) =>
+              isActive
+                ? `ad-format-btn-active button--pill mx-lg-3 mx-auto  d-block mt-lg-0 mt-5`
+                : `ad-format-btn button--pill mx-lg-3 mx-auto d-block mt-lg-0 mt-5`
+            }
+          >
+            <button>NATIVE</button>
+          </NavLink>
+          <NavLink
+            to="/skim"
+            className={({ isActive }) =>
+              isActive
+                ? `ad-format-btn-active button--pill mx-lg-3 mx-auto  d-block mt-lg-0 mt-5`
+                : `ad-format-btn button--pill mx-lg-3 mx-auto  d-block mt-lg-0 mt-5`
+            }
+          >
+            <button>SKIM</button>
+          </NavLink>
+        </div>
       </div>
       <Outlet></Outlet>
     </div>

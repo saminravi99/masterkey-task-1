@@ -1,6 +1,6 @@
 .summary-section {
   background-color: #644f9c;
-  height: 500px;
+  min-height: 100vh;
 }
 
 .stat {
@@ -34,3 +34,12 @@
     color: #ffffff;
     font-weight: 700;
 }
+
+@media screen and (max-width: 768px) {
+  
+  .stat {
+    width: 200px;
+    height: 200px;
+  }
+}
+  

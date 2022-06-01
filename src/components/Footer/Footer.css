@@ -1,14 +1,13 @@
-.footer-container{
-    margin-top:-150px;
+.footer-container {
+  margin-top: -150px;
 }
 
 ul {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 .footer-section {
-  background: #F2F2F2
-;
+  background: #f2f2f2;
   position: relative;
 }
 .footer-cta {
@@ -50,12 +49,12 @@ ul {
   margin-bottom: 30px;
 }
 .footer-logo img {
-    max-width: 200px;
+  max-width: 200px;
 }
 .footer-text h4 {
   margin-bottom: 14px;
-      color: #644F9C;
-      font-weight: 700;
+  color: #644f9c;
+  font-weight: 700;
   line-height: 28px;
 }
 .footer-social-icon span {
@@ -63,7 +62,7 @@ ul {
   display: block;
   font-size: 20px;
   font-weight: 700;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   margin-bottom: 20px;
 }
 .footer-social-icon a {
@@ -80,7 +79,7 @@ ul {
 }
 
 .footer-widget-heading h3 {
-  color: #644F9C;
+  color: #644f9c;
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 40px;
@@ -96,12 +95,12 @@ ul {
   background: #ff5e14;
 }
 .footer-widget ul li {
-    font-family: 'PT Sans', sans-serif;
-    font-weight: 700;
-    list-style-type: none;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  list-style-type: none;
   margin-bottom: 12px;
 }
-.footer-widget ul li a:hover{
+.footer-widget ul li a:hover {
   color: #ff5e14;
 }
 .footer-widget ul li a {
@@ -109,50 +108,30 @@ ul {
   text-transform: capitalize;
   text-decoration: none;
 }
-.subscribe-form {
-  position: relative;
-  overflow: hidden;
-}
-.subscribe-form input {
-  width: 100%;
-  padding: 14px 28px;
-  background: #F2F2F2;
-  border: 1px solid #2E2E2E;
-  color: rgb(0, 0, 0);
-}
-.subscribe-form button {
-    position: absolute;
-    right: 0;
-    background: #ff5e14;
-    padding: 13px 20px;
-    border: 1px solid #ff5e14;
-    top: 0;
-}
-.subscribe-form button i {
-  color: rgb(0, 0, 0);
-  font-size: 22px;
-  transform: rotate(-6deg);
-}
-.copyright-area{
-  background: #202020;
-  padding: 25px 0;
-}
-.copyright-text p {
-  margin: 0;
-  font-size: 14px;
-  color: #000000;
-}
-.copyright-text p a{
-  color: #ff5e14;
-}
+
 .footer-menu li {
   display: inline-block;
   margin-left: 20px;
 }
-.footer-menu li:hover a{
+.footer-menu li:hover a {
   color: #ff5e14;
 }
 .footer-menu li a {
   font-size: 14px;
   color: #000000;
+}
+
+@media screen and (max-width: 991px) {
+  .footer-logo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .icon-container > a{
+      display: inline-block;
+        margin-left: 30px;
+        margin-right: 30px;
+  }
+ 
 }

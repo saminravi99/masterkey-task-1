@@ -17,20 +17,22 @@ const Footer = () => {
             <div class="row">
               <div class="col-xl-3 col-lg-3 mb-50">
                 <div class="footer-widget">
-                  <div class="footer-text">
+                  <div class="footer-text text-lg-end text-center">
                     <h4>We Are Social</h4>
                   </div>
-                  <div class="footer-social-icon">
+                  <div class="footer-social-icon text-lg-end text-center">
                     <span>Follow us</span>
-                    <Link to="/">
-                      <FontAwesomeIcon icon={faEnvelopeSquare} />
-                    </Link>
-                    <Link to="/">
-                      <FontAwesomeIcon icon={faBell} />
-                    </Link>
-                    <Link to="/">
-                      <FontAwesomeIcon icon={faLocationPin} />
-                    </Link>
+                    <div className="icon-container">
+                      <Link to="/">
+                        <FontAwesomeIcon icon={faEnvelopeSquare} />
+                      </Link>
+                      <Link to="/">
+                        <FontAwesomeIcon icon={faBell} />
+                      </Link>
+                      <Link to="/">
+                        <FontAwesomeIcon icon={faLocationPin} />
+                      </Link>
+                    </div>
                   </div>
                   <div class="footer-logo mt-4">
                     <a href="/">
@@ -43,7 +45,7 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
-              <div class="col-xl-3 col-lg-3 col-md-6 mb-30">
+              <div class="col-xl-3 col-lg-3 col-6 mb-30">
                 <div class="footer-widget">
                   <div class="footer-widget-heading">
                     <h3>Links</h3>
@@ -65,7 +67,7 @@ const Footer = () => {
                 </div>
               </div>
 
-              <div class="col-xl-3 col-lg-3 col-md-6 mb-30">
+              <div class="col-xl-3 col-lg-3 col-6 mb-30">
                 <div class="footer-widget">
                   <div class="footer-widget-heading">
                     <h3>Documentation</h3>
@@ -88,7 +90,7 @@ const Footer = () => {
               </div>
               <div class="col-xl-3 col-lg-3 col-md-6 mb-30">
                 <div class="footer-widget">
-                  <div class="footer-widget-heading">
+                  <div class="footer-widget-heading mt-lg-0 mt-4">
                     <h3>Support</h3>
                   </div>
                   <ul>

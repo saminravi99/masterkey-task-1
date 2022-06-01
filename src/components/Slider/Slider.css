@@ -51,3 +51,13 @@
     -0.2rem -0.2rem 0.4rem #fff;
 
 }
+
+@media screen and (max-width: 768px) {
+  .swiper-button-next{
+    right: 80px;
+  }
+  .swiper-button-prev{
+    left: 80px;
+  }
+}
+  
