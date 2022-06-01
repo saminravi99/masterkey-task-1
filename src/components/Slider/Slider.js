@@ -49,42 +49,57 @@ export default function Slider() {
         >
           <div>
             <SwiperSlide>
-              <Card>
-                <Card.Header>Featured 1</Card.Header>
-                <Card.Body>
-                  <Card.Title>Special title treatment</Card.Title>
-                  <Card.Text>
-                    With supporting text below as a natural lead-in to
-                    additional content.
-                  </Card.Text>
-                  <Button variant="primary">Go somewhere</Button>
-                </Card.Body>
+              <Card className="slider-card">
+                <div className="d-flex justify-content-around align-items-center slider-container">
+                  <div>
+                    <img
+                      className="slider-img"
+                      src="https://img.freepik.com/free-vector/business-team-putting-together-jigsaw-puzzle-isolated-flat-vector-illustration-cartoon-partners-working-connection-teamwork-partnership-cooperation-concept_74855-9814.jpg?size=626&ext=jpg&ga=GA1.2.523867278.1651156463"
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <h5>
+                      We are the best digital marketing agency in the world.
+                    </h5>
+                  </div>
+                </div>
               </Card>
             </SwiperSlide>
             <SwiperSlide>
-              <Card>
-                <Card.Header>Featured 1</Card.Header>
-                <Card.Body>
-                  <Card.Title>Special title treatment</Card.Title>
-                  <Card.Text>
-                    With supporting text below as a natural lead-in to
-                    additional content.
-                  </Card.Text>
-                  <Button variant="primary">Go somewhere</Button>
-                </Card.Body>
+              <Card className="slider-card">
+                <div className="d-flex justify-content-around align-items-center slider-container ">
+                  <div>
+                    <img
+                      className="slider-img"
+                      src="https://img.freepik.com/free-vector/business-team-planning-working-process-flat-vector-illustration-cartoon-colleagues-talking-sharing-thoughts-smiling-company-office-teamwork-workflow-concept_74855-9813.jpg?size=626&ext=jpg&ga=GA1.2.523867278.1651156463"
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <h5>
+                      We are the best digital marketing agency in the world.
+                    </h5>
+                  </div>
+                </div>
               </Card>
             </SwiperSlide>
             <SwiperSlide>
-              <Card>
-                <Card.Header>Featured 1</Card.Header>
-                <Card.Body>
-                  <Card.Title>Special title treatment</Card.Title>
-                  <Card.Text>
-                    With supporting text below as a natural lead-in to
-                    additional content.
-                  </Card.Text>
-                  <Button variant="primary">Go somewhere</Button>
-                </Card.Body>
+              <Card className="slider-card">
+                <div className="d-flex justify-content-around align-items-center slider-container ">
+                  <div>
+                    <img
+                      className="slider-img"
+                      src="https://img.freepik.com/free-vector/two-business-partners-handshaking_74855-6685.jpg?size=626&ext=jpg&ga=GA1.2.523867278.1651156463"
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <h5>
+                      We are the best digital marketing agency in the world.
+                    </h5>
+                  </div>
+                </div>
               </Card>
             </SwiperSlide>
           </div>

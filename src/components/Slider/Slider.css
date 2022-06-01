@@ -52,6 +52,21 @@
 
 }
 
+.slider-img{
+  width: 150px !important;
+}
+
+.slider-card{
+  padding: 20px;
+  border-radius: 25px;
+}
+
+.slider-container{
+  border: 2px dashed #ff5e14;
+  padding: 20px;
+  border-radius: 25px;
+}
+
 @media screen and (max-width: 768px) {
   .swiper-button-next{
     right: 80px;
