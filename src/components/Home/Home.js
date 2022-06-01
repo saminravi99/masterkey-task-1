@@ -7,7 +7,7 @@ import Summary from '../Summary/Summary';
 
 const Home = () => {
     return (
-        <div className="pb-5">
+        <div className="">
             <Hero></Hero>
             <Services></Services>
             <AdFormats></AdFormats>

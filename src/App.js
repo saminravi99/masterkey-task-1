@@ -1,6 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import BannerAd from './components/BannerAd/BannerAd';
+import Footer from './components/Footer/Footer';
 import Home from './components/Home/Home';
 import Native from './components/Native/Native';
 import NavBar from './components/NavBar/NavBar';
@@ -34,6 +35,7 @@ function App() {
           ></Route>
         </Route>
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }
